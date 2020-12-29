@@ -1,0 +1,73 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "E:\\ExamLibrary\\ExamLibrary\\LibraryApi\\LibraryApi.csproj",
+    "projectName": "LibraryApi",
+    "projectPath": "E:\\ExamLibrary\\ExamLibrary\\LibraryApi\\LibraryApi.csproj",
+    "outputPath": "E:\\ExamLibrary\\ExamLibrary\\LibraryApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "http://nuget.sabacell.net:8081/repository/nuget/": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
